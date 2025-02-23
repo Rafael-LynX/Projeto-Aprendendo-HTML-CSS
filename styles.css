@@ -1,0 +1,97 @@
+/* Seletor global remove margens e espaçamentos padrÃo de todos os elementos */
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; /* Faz com que o tamanho dos elementos inclua padding e border*/
+    font-family: Arial, sans-serif; /* Define a fonte padrão para um visual limpo e moderno */
+}
+
+/* Corpo da página */
+body {
+    background-color: black; /* Define cor de fundo da página */
+    color: white; /* Define a cor do texto */
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    display: flex; /* Torna o body um contêiner flexível */
+    height: 100vh; /* Define a altura do body como 100% da altura da tela (viewport height) */
+    padding: 20px; /* Adiciona um espaçamento interno para evitar que os elementos fiquem muito grudados nas bordas */
+}
+
+/* A parte destaque do título (AppSec) */
+span {
+    color: #22D4FD; /* Define a cor de texto destaque */
+    border: 1px solid #22D4FD;
+    padding: 5px;
+}
+
+/* class container representa o bloco da parte do texto */
+.container {
+    display: flex; /* Ativa o flexbox, permitindo organizar os elementos internos */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    justify-content: space-between; /* Alinha os itens horizontalmente */
+    max-width: 900px; /* Limitada a largura do conteúdo para evita que fique muito espalhado em telas grandes */
+    width: 100%; /* Garante que o container ocupe toda a largura disponível dentro max-width */
+    
+} 
+
+/* class text representa a parte do texto */
+.text {
+    flex: 1; /* Faz com que essa div ocupe todo espaços disponível dentro do .container */
+}
+
+/* tag h1 do html representa o título da página */
+h1 {
+    font-size: 24px; /* Define o tamanho do título */
+    margin-bottom: 15px; /* Adiciona um espaço abaixo do título, separando-o do texto */
+}
+
+/* tag p do html representa o texto da página */
+p {
+    font-size: 18px; /* Tamanho padrão do texto */
+    line-height: 1.5; /* Aumenta o espaçamento entre as linhas para melhor leitura */
+    max-width: 350px; /* Limita a largura do parágrafo para não ficar muito extenso */
+    margin-bottom: 20px; /* Adiciona um espaçamento */
+}
+
+/* class buttons representa os botões da página */
+.buttons {
+    display: flex; /* Alinha os botões lado a lado */
+    gap: 15px; /* Adiciona um espaçamento de 15 pixels entre botões */
+}
+
+/* class btn representa cada botão */
+.btn {
+    background-color: #22D4FD; /*Define a cor de fundo azul */
+    color: black; /* Define a cor de texto como preto para contratastar com o fundo azul */
+    padding: 10px 20px; /* Adiciona espaçamento interno para deixar o botão maior */
+    text-decoration: none; /* Remove o sublinhado dos liniks */
+    font-weight: bold; /* Deixa o texto em negrito */
+    border-radius: 5px; /* Arredonda as bordas do botão */
+    transition: 0.3s; /* Adiciona um efeito de transição suave */
+}
+
+/* Definição de estilo para quando passar o mouse em cima dos botões */
+.btn:hover { 
+    background-color: #008CBA; /* Muda a cor do botão quando o usuário passa o mouse por cima */
+}
+  
+/* class imagem representa a imagem da página */
+.image {
+    flex: 1; /* faz a div da imagem ocupar o espaço restante */
+    display: flex; /* Permite melhor controle do alinhamento interno */
+    justify-content: center; /* Centraliza a imagem dentro da div */
+    align-items: center;
+}
+
+/* Ele estiliza apenas a imagem dentro da div com class image */
+.image img {
+    width: 250px;
+    max-width: 488px; /* Define a largura da imagem como 488 pixels */
+    height: auto; /* Define a altura da imagem */
+    border-radius: 10px; /* Deixa as bordas da imagem levemente arrendondas */
+    border: 2px solid #22D4FD;/* Adiciona uma borda azul ao redor da imagem para destaca-la */
+    object-fit: cover;
+    
+}
+
+
