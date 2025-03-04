@@ -2,29 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto HTML</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho_menu">
+            <a class="cabecalho_menu_link" href="index.html">Home</a>
+            <a class="cabecalho_menu_link" href="about.html">Sobre mim</a>
+            <a class="cabecalho_menu_link" href="curriculo.html">Currículo</a>
+        </nav>
+    </header>
         <main class="apresentacao">
             <section class="apresentacao_conteudo">
                 <h1 class="apresentacao_conteudo_titulo">
                     Eleve seu negócio digital a outro nível <span class="titulo-destaque">com um Front-end de qualidade!</span>
                 </h1>
                 <p class="apresentacao_conteudo_texto">
-                    Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. 
+                    Olá! Sou <span class="apresentacao_nome_destaque">Joana Santos</span>, desenvolvedora Front-end com especialidade em React, HTML e CSS. 
                     Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?
                 </p>
                 <div class="apresentacao_links">
-                    <a class="apresentacao_links_link" href="https://x.com/RafaelV49070581">Twitter</a>
-                    <a class="apresentacao_links_link" href="https://github.com/Rafael-LynX">Github</a>
+                    <h2 class="apresentacao_links_subtitulo">Acesse minhas redes</h2>
+                    <a class="apresentacao_links_link" href="https://x.com/RafaelV49070581">
+                        <img src="assets/twitter-novo.png" >
+                        Twitter</a>
+                    <a class="apresentacao_links_link" href="https://github.com/Rafael-LynX">
+                        <img src="assets/github.png" alt="Github">
+                        Github</a>
+                    <a class="apresentacao_links_link" href="https://www.linkedin.com/in/rafael-santos-4b7b3b1b4/">
+                        <img src="assets/linkedin.png" alt="Linkedin">
+                        Linkedin</a>
                 </div>
             </section>
-            <img src="Imagem.png" alt="Joana Codando" >
+            <img src="assets/Imagem.png" alt="Joana Codando" >
         </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Rafael Vieira</p>
+    </footer>
 </body>
 </html>
 
