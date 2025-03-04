@@ -4,7 +4,7 @@
 
 <h1 align="center"> 
 
-![image](https://github.com/user-attachments/assets/023b0e8d-06e3-4cc4-a444-a14d91c96b0b)
+![image](https://github.com/user-attachments/assets/1956bb24-992c-47a3-b83c-ac317184c2a5)
 
 
 </h1>
@@ -32,6 +32,7 @@ $ git clone https://github.com/Rafael-LynX/
 ## 🛠️ Technologies Used
 
 [![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 ## 🏆 Autor
 
